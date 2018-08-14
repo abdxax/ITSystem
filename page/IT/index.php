@@ -28,7 +28,8 @@
 				<ul class="nav nav-navbar flex-column">
 					<li>LOGO</li>
 					<li><a href="profile.php"><i class="glyphicon glyphicon-user"></i></a></li>
-					<li><a href="request.php"><i class="fas fa-plus"></i></a></li>
+					<li><a href="add.php"><i class="fas fa-plus"></i></a></li>
+					<li><a href="requests.php"><i class="fas fa-folder-open"></i></a></li>
 				</ul>
 			</nav>
 			<div class="col-md-8">

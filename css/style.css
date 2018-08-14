@@ -13,3 +13,15 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+.cent{
+	text-align: center;
+}
+.forms input,textarea,select{
+	margin: 10px;
+
+}
+.forms{
+	margin-top: 50px;
+	margin-right:  auto;
+	margin-left : auto;
+}

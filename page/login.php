@@ -1,3 +1,21 @@
+<?php 
+require "connect.php";
+if (isset($_POST['sub'])) {
+	$user=$_POST['user'];
+	$pass=$_POST['pass'];
+
+	$sql="SELECT * FROM user WHERE user_id='$user' AND password='$pass'";
+	$resu=mysqli_query($con,$sql);
+	if (mysqli_num_rows($resu)==1){
+       header("location:user/index.php");
+	}
+	else{
+		echo "string";
+	}
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,9 +38,9 @@
 			
 			<div class="col-md-6 logfor">
 				<img src="user2.png" width="150px" height="150px" class="img-responsive imo">
-				<div class="panel panel-default">
+				<div class=". panel-default">
 					<div class="panel-heading">
-						<form>
+						<form method="POST">
 							<div class="form-group">
 								<label for="user">username</label>
 

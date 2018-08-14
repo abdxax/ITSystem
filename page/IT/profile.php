@@ -25,23 +25,35 @@
 	<div class="container-fluid">
 		<div class="row">
 			<nav class="col-md-2 ">
-				<ul class="nav nav-navbar flex-column">
+			<ul class="nav nav-navbar flex-column">
 					<li>LOGO</li>
 					<li><a href="profile.php"><i class="glyphicon glyphicon-user"></i></a></li>
-					<li><a href="request.php"><i class="fas fa-plus"></i></a></li>
+					<li><a href="add.php"><i class="fas fa-plus"></i></a></li>
+					<li><a href="requests.php"><i class="fas fa-folder-open"></i></a></li>
 				</ul>
 			</nav>
 			<div class="col-md-8">
-				
-					<div class="cent">
-						<h3>Profile</h3>
-					</div>
 				<table class="table">
-					<thead>
-						<th>Title</th>
-						<th>Details</th>
-						<th>status</th>
-					</thead>
+					<tr>
+						<th>Full name </th>
+						<td>a1</td>
+					</tr>
+					<tr>
+						<th>ID </th>
+						<td>a1</td>
+					</tr>
+					<tr>
+						<th>Phone</th>
+						<td>a1</td>
+					</tr>
+					<tr>
+						<th>Department</th>
+						<td>a1</td>
+					</tr>
+					<tr>
+						<th>Address</th>
+						<td>a1</td>
+					</tr>
 				</table>
 			</div>
 		</div>

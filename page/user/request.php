@@ -32,17 +32,14 @@
 				</ul>
 			</nav>
 			<div class="col-md-8">
-				
-					<div class="cent">
-						<h3>Profile</h3>
-					</div>
-				<table class="table">
-					<thead>
-						<th>Title</th>
-						<th>Details</th>
-						<th>status</th>
-					</thead>
-				</table>
+				<div class="col-md-6 forms">
+					<form>
+					<input type="text" name="title" class="form-control">
+					<textarea class="form-control" rows="5" name="deta"></textarea>
+					<input type="submit" name="sumb" class="btn btn-info" value="send">
+				</form>
+				</div>
+					
 			</div>
 		</div>
 	</div>
